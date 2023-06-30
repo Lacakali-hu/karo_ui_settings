@@ -1,3 +1,3 @@
 # karo_ui_settings
 
-A new Flutter project.
+KaroUi settings app for android
