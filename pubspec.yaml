@@ -17,3 +17,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Cabin
+      fonts:
+       - asset: fonts/cabin/Cabin-Variablefont_wdth,wght.ttf
+         weight: 700
+
