@@ -9,17 +9,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^10.5.0
 
 dev_dependencies:
+  flutter_lints: 2.0.2
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
   fonts:
     - family: Cabin
       fonts:
-       - asset: fonts/cabin/Cabin-Variablefont_wdth,wght.ttf
-         weight: 700
-
+        - asset: fonts/cabin/Cabin-Variablefont_wdth,wght.ttf
+          weight: 700
+  assets:
+    - pictures/
