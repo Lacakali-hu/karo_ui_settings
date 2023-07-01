@@ -76,7 +76,10 @@ class MainScreen extends StatelessWidget {
                         child: const Column(
                           children: [
                             Image(image: AssetImage('pictures/latoxlogo.png')),
-                            Text('nav')
+                            Text(
+                              'nav',
+                              style: TextStyle(color: Colors.white),
+                            )
                           ],
                         ),
                       )),
@@ -91,7 +94,10 @@ class MainScreen extends StatelessWidget {
                                   Image(
                                       image:
                                           AssetImage('pictures/latoxlogo.png')),
-                                  Text('theme')
+                                  Text(
+                                    'theme',
+                                    style: TextStyle(color: Colors.white),
+                                  )
                                 ],
                               )))
                     ],
